@@ -158,7 +158,7 @@ public class Doctor {
 				PreparedStatement preparedStatement = con.prepareStatement(query);
 
 			
-				//preparedStatement.setString(1, DoC_id);
+				
 				preparedStatement.setInt(1, Integer.parseInt(DoC_id));
 				preparedStatement.execute();
 				con.close();
